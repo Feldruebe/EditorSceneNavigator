@@ -1,7 +1,7 @@
 {
-  "name": "com.MichaelSchneider.EditorSceneManager",
+  "name": "com.MichaelSchneider.EditorSceneNavigator",
   "version": "1.0.0",
-  "displayName": "EditorSceneManager",
+  "displayName": "EditorSceneNavigator",
   "description": "A manager for navigating scenes in the Unity Editor.",
   "unity": "6000.5",
   "author": {
