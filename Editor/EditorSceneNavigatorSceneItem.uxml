@@ -1,19 +1,19 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
-        <ui:Label text="Label" enabled="false" data-source-type="EditorSceneManagerSceneData, Assembly-CSharp-Editor" name="Label" style="flex-direction: column; margin-left: 5px; color: rgb(255, 255, 255); font-size: 12px; -unity-font-style: bold; width: 0;">
+        <ui:Label text="Label" enabled="false" data-source-type="Phase1.Editor.Model.EditorSceneNavigatorSceneData, EditorSceneNavigatorEditor" name="Label" style="flex-direction: column; margin-left: 5px; color: rgb(255, 255, 255); font-size: 12px; -unity-font-style: bold; width: 0;">
             <Bindings>
-                <ui:DataBinding property="text" data-source-path="sceneName" binding-mode="ToTarget" data-source-type="Phase1.Editor.Model.EditorSceneNavigatorSceneData, Assembly-CSharp-Editor"/>
+                <ui:DataBinding property="text" data-source-path="sceneName" binding-mode="ToTarget" data-source-type="Phase1.Editor.Model.EditorSceneNavigatorSceneData, EditorSceneNavigatorEditor"/>
             </Bindings>
         </ui:Label>
         <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: flex-end;">
             <ui:Button text="Load" name="LoadButton" style="flex-direction: column;">
                 <Bindings>
-                    <ui:DataBinding property="style.display" data-source-path="showButtons" data-source-type="EditorSceneManagerSceneData, Assembly-CSharp-Editor" binding-mode="ToTarget"/>
+                    <ui:DataBinding property="style.display" data-source-path="showButtons" data-source-type="Phase1.Editor.Model.EditorSceneNavigatorSceneData, EditorSceneNavigatorEditor" binding-mode="ToTarget"/>
                 </Bindings>
             </ui:Button>
             <ui:Button text="Select" name="SelectButton" style="flex-direction: column; -unity-text-align: middle-center;">
                 <Bindings>
-                    <ui:DataBinding property="style.display" data-source-path="showButtons" data-source-type="EditorSceneManagerSceneData, Assembly-CSharp-Editor" binding-mode="ToTarget"/>
+                    <ui:DataBinding property="style.display" data-source-path="showButtons" data-source-type="Phase1.Editor.Model.EditorSceneNavigatorSceneData, EditorSceneNavigatorEditor" binding-mode="ToTarget"/>
                 </Bindings>
             </ui:Button>
         </ui:VisualElement>
