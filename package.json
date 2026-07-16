@@ -1,0 +1,11 @@
+{
+  "name": "com.MichaelSchneider.EditorSceneManager",
+  "version": "1.0.0",
+  "displayName": "EditorSceneManager",
+  "description": "A manager for navigating scenes in the Unity Editor.",
+  "unity": "6000.5",
+  "author": {
+    "name": "Michael Schneider",
+    "url": "https://yourwebsite.com"
+  }
+}
