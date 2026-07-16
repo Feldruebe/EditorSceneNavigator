@@ -4,7 +4,6 @@ using Phase1.Editor.Model;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
-using ZLinq;
 
 namespace Phase1.Editor
 {
@@ -101,7 +100,7 @@ namespace Phase1.Editor
         private void OnDragPerform(DragPerformEvent evt)
         {
             DragAndDrop.AcceptDrag();
-            var sceneAssets = DragAndDrop.objectReferences.AsValueEnumerable().OfType<SceneAsset>().ToArray();
+            var sceneAssets = DragAndDrop.objectReferences.OfType<SceneAsset>().ToArray();
             this.data.AddSceneAssets(sceneAssets);
         }
 
