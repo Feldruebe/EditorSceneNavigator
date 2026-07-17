@@ -1,5 +1,6 @@
 # Editor Scene Navigator
-- Open with Window -> Editor Scene Navigator
+- open with
+  - window -> Editor Scene Navigator
 
 - double click -> open scene
 - right click -> ping scene in project window
